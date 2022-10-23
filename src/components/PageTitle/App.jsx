@@ -44,7 +44,6 @@ export class App extends Component {
       <Box
         bg="mainBg"
         color="text"
-        onClick={this.countPositiveFeedbackPercentage}
       >
         <Section title="Please leave feedback">
           <FeedbackOptions
