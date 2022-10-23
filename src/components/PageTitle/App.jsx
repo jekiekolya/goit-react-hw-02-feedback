@@ -41,10 +41,7 @@ export class App extends Component {
 
   render() {
     return (
-      <Box
-        bg="mainBg"
-        color="text"
-      >
+      <Box bg="mainBg" color="text">
         <Section title="Please leave feedback">
           <FeedbackOptions
             options={Object.keys(this.state)}
