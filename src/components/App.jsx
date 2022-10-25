@@ -26,7 +26,7 @@ export class App extends Component {
   };
 
   onLeaveFeedback = e => {
-    const option = e.target.textContent.toLowerCase();
+    const option = e.target.getAttribute('name').toLowerCase();
 
     // add effect after click button
     e.target.classList.add('click');
